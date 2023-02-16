@@ -29,6 +29,8 @@ public class scanner {
 		
 		String s1, s2, s3;
 		y = sc.nextInt();
+//		Insere um nextLine extra
+		sc.nextLine();
 		s1 = sc.nextLine();
 		s2 = sc.nextLine();
 		s3 = sc.nextLine();
