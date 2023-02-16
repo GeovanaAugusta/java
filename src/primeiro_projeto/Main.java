@@ -6,6 +6,8 @@ import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.Locale;
 
+// first conceits
+
 public class Main {
 	
 	public static void main(String[] args) {
