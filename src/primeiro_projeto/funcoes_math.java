@@ -3,7 +3,10 @@ package primeiro_projeto;
 public class funcoes_math {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// funções mat em java - + do mesmo
+//		• sqrt – raiz quadrada
+//		• pow – potenciação
+//		• abs – valor absoluto
 		
 		double x = 3.0;
 		double y = 4.0;
