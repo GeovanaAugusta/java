@@ -2,7 +2,7 @@ package primeiro_projeto;
 
 import java.util.Scanner;
 
-public class condicional {
+public class Condicional_if_else {
 
 	public static void main(String[] args) {
 		// if else - normal
