@@ -3,9 +3,11 @@ package primeiro_projeto;
 import java.util.Locale;
 import java.util.Scanner;
 
-//Fazer um programa para ler uma temperatura em Celsius e mostrar o equivalente em
-//Fahrenheit. Perguntar se o usuário deseja repetir (s/n). Caso o usuário digite "s", repetir o
-//programa.
+/*
+Fazer um programa para ler uma temperatura em Celsius e mostrar o equivalente em
+Fahrenheit. Perguntar se o usuário deseja repetir (s/n). Caso o usuário digite "s", repetir o
+programa.
+*/
 
 public class Loop_do_while {
 
