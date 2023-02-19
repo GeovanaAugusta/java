@@ -12,17 +12,14 @@ public class Funcoes {
 		
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-		int c = sc.nextInt();
-		
+		int c = sc.nextInt();	
 		
 		int heigher = max(a, b, c);
 		
 		showResult(heigher);
+			
 		
-		
-		
-		sc.close(); 
-		
+		sc.close(); 	
 
 	}
 	
