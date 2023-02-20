@@ -20,6 +20,9 @@ public class Product_constructor {
 		this.name = name;
 		this.price = price;
 	}
+	
+//	Mais de uma versão da mesma operação - sobrecarga	
+	public Product_constructor() {}
 
 	public double totalValueStock() {
 		return price * quantity;
