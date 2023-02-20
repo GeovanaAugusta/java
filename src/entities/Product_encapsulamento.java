@@ -1,28 +1,48 @@
 package entities;
 
-public class Product_constructor {
-
-//	Com o intuito de evitar a existência de produtos sem nome e sem preço - constructor	
-//	Refact Product (entities) e Product_poo
+public class Product_encapsulamento {
 
 	public String name;
 	public double price;
 	public int quantity;
 
-	public Product_constructor(String name, double price, int quantity) {
+	public Product_encapsulamento(String name, double price, int quantity) {
 		this.name = name;
 		this.price = price;
 		this.quantity = quantity;
 	}
-	
+
 //	Mais de uma versão da mesma operação - sobrecarga	
-	public Product_constructor(String name, double price) {
+	public Product_encapsulamento(String name, double price) {
 		this.name = name;
 		this.price = price;
 	}
+
+//	constructor padrão
+	public Product_encapsulamento() {}
 	
-//	constructor padrão	
-	public Product_constructor() {}
+//	Depois dos construtores
+	public void setName(String name)  {
+		this.name = name;
+	}
+	
+	public String getName()  {
+		return this.name;
+	}
+	
+	public void setPrice(double price)  {
+		this.price = price;
+	}
+	
+	public double getPrice()  {
+		return this.price;
+	}	
+	
+//	Apenas leitura para proteção de dados
+	public int getQuantity()  {
+		return this.quantity;
+	}	
+	
 
 	public double totalValueStock() {
 		return price * quantity;
@@ -40,5 +60,4 @@ public class Product_constructor {
 		return name + ", $ " + String.format("%.2f", price) + ", " + quantity + " units, Total: $ "
 				+ String.format("%.2f", totalValueStock());
 	}
-
 }
