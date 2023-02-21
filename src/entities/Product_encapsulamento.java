@@ -2,9 +2,9 @@ package entities;
 
 public class Product_encapsulamento {
 
-	public String name;
-	public double price;
-	public int quantity;
+	private String name;
+	private double price;
+	private int quantity;
 
 	public Product_encapsulamento(String name, double price, int quantity) {
 		this.name = name;
