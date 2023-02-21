@@ -42,7 +42,7 @@ public class Listas {
 		}
 		System.out.println("---------------------");
 		
-//		Encontra o primeiro nome que começa com J 
+//		Encontra o primeiro nome que começa com J - Predicato específico
 		String name = list.stream().filter(x -> x.charAt(0) == 'J').findFirst().orElse(null);
 		System.out.println(name);
 
