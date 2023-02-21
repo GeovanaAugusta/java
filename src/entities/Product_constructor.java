@@ -15,7 +15,11 @@ public class Product_constructor {
 		this.quantity = quantity;
 	}
 	
-//	Mais de uma versão da mesma operação - sobrecarga	
+public double getPrice() {
+		return price;
+	}
+
+	//	Mais de uma versão da mesma operação - sobrecarga	
 	public Product_constructor(String name, double price) {
 		this.name = name;
 		this.price = price;
